@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex2 - Produto"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 09:36:46 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNDswOToyMzozNSBBTTszMjk2"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNDswOTozNjo0NiBBTTsyOzM0MTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num1, num2, produto" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um numero: &quot;" newline="True"/>
+            <input variable="num1"/>
+            <output expression="&quot;Digite outro n&#250;mero: &quot;" newline="True"/>
+            <input variable="num2"/>
+            <assign variable="produto" expression="num1 * num2"/>
+            <output expression="&quot;PRODUTO: &quot; &amp; produto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex7 - AreaPerimetroR"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 07:50:48 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNjswNzo0Nzo0MiBBTTszMzAw"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNjswNzo1MDo0OCBBTTsxOzM0MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="base, altura, perimetro, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o valor da base do ret&#226;ngulo: &quot;" newline="False"/>
+            <input variable="base"/>
+            <output expression="&quot;Digite o valor da altura do ret&#226;ngulo: &quot;" newline="False"/>
+            <input variable="altura"/>
+            <assign variable="perimetro" expression="(base * 2) + (altura * 2)"/>
+            <assign variable="area" expression="base * altura"/>
+            <output expression="&quot;Per&#237;metro: &quot; &amp; perimetro" newline="True"/>
+            <output expression="&quot;&#193;rea: &quot; &amp; area" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

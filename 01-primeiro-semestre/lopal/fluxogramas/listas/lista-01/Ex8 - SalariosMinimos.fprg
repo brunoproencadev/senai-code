@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex8 - SalariosMinimos"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-26 08:00:13 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNjswNzo1NToxMiBBTTszMjk2"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNjswODowMDoxMyBBTTsxOzMzOTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="salario, salariominimo, quantidade" type="Real" array="False" size=""/>
+            <assign variable="salariominimo" expression="1640.00"/>
+            <output expression="&quot;Digite o valor do seu sal&#225;rio: &quot;" newline="False"/>
+            <input variable="salario"/>
+            <assign variable="quantidade" expression="salario / salariominimo"/>
+            <output expression="&quot;Voc&#234; recebe um total de &quot; &amp; Tofixed(quantidade,2) &amp; &quot; sal&#225;rios m&#237;nimos!&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

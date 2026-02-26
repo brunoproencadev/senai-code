@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex3 - AntecessorSucessor"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 10:17:49 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNDsxMDoxMDo1NiBBTTszMjg3"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNDsxMDoxNzo0OSBBTTsyOzM0MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="True"/>
+            <input variable="num"/>
+            <output expression="&quot;Antecessor: &quot; &amp; num - 1 &amp; &quot; Sucessor: &quot; &amp; num + 1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="Ex4 - Fra&#231;&#227;oUmQuarto"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-02-24 10:20:10 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNDsxMDoxNzo1MSBBTTszMjg5"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMi0yNDsxMDoyMDoxMCBBTTsxOzMzODY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="num, fracao" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero real (0.0): &quot;" newline="True"/>
+            <input variable="num"/>
+            <assign variable="fracao" expression="num / 4"/>
+            <output expression="&quot;1/4 de &quot; &amp; num &amp; &quot; &#233;: &quot; &amp; fracao" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
