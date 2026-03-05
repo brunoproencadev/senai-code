@@ -1,0 +1,1 @@
+@idvscjava.vscode-java-pack
