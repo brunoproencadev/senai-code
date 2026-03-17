@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L2Ex4"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 09:12:51 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOToxMTowNCBBTTszMjky"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOToxMjo1MSBBTTsxOzM0MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, area" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o raio em mm: &quot;" newline="False"/>
+            <input variable="r"/>
+            <assign variable="area" expression="3.14 * (raio ^ 2)"/>
+            <output expression="&quot;&#193;rea: &quot; &amp; area &amp; &quot;mm.&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

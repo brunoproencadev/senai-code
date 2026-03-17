@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L2Ex3"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 09:03:50 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOTowMTowNiBBTTszMjkz"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOTowMzo1MCBBTTsxOzM0MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="r, perimetro" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o raio da circunfer&#234;ncia: &quot;" newline="False"/>
+            <input variable="r"/>
+            <assign variable="perimetro" expression="2 * 3.14 * r"/>
+            <output expression="&quot;Per&#237;metro: &quot; &amp; perimetro &amp; &quot;cm&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

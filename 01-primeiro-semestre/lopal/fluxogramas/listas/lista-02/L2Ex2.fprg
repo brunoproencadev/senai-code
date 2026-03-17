@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L2Ex2"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 08:50:13 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswODo0NzoyNSBBTTszMzAz"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswODo1MDoxMyBBTTsxOzM0MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c, geometricMean" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite um segundo n&#250;mero: &quot;" newline="False"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite um terceiro n&#250;mero: &quot;" newline="True"/>
+            <input variable="c"/>
+            <assign variable="geometricMean" expression="(a * b * c) ^ (1.0/3.0)"/>
+            <output expression="&quot;M&#233;dia Geom&#233;trica: &quot; &amp; geometricMean" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

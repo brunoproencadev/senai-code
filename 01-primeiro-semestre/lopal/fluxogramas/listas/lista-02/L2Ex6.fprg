@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L2Ex6"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 09:30:14 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOToyNzo1NyBBTTszMzA3"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOTozMDoxNCBBTTsxOzM0MDI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="valorTotal, valorPago, troco" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor total da compra: &quot;" newline="False"/>
+            <input variable="valorTotal"/>
+            <output expression="&quot;Valor pago: &quot;" newline="True"/>
+            <input variable="valorPago"/>
+            <assign variable="troco" expression="valorTotal - valorPago"/>
+            <output expression="&quot;Troco: &quot; + troco" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

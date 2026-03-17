@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L2Ex5"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-17 09:22:23 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOToyMDo0NSBBTTszMjk3"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0xNzswOToyMjoyMyBBTTsxOzM0MDM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="c, f" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite a temperatura em graus Celcius: &quot;" newline="False"/>
+            <input variable="c"/>
+            <assign variable="f" expression="(c * (9.0/5.0)) + 32"/>
+            <output expression="&quot;Graus Farenheit: &quot; + f" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
