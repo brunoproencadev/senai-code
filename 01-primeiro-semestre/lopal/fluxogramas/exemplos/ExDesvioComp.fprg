@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="ExDesvioComp"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-24 09:55:51 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNDswOTo0OTo0NyBBTTszMzA4"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNDswOTo1NTo1MSBBTTsxOzM0MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number" type="Integer" array="False" size=""/>
+            <output expression="&quot;Type a number: &quot;" newline="False"/>
+            <input variable="number"/>
+            <if expression="numero &gt;= 100">
+                <then>
+                    <output expression="&quot;Over 100&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Under 100&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
