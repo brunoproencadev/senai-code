@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L4Ex3"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-26 12:00:30 PM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNjsxMDo1MzowNSBBTTszMjkx"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNjsxMDo1MzoyMyBBTTszO0JydW5vIFByb2Vuw6dhO0RFVi0xNTMxNDY5OzIwMjYtMDMtMjY7MTA6NDg6MjYgQU07Njc1OA=="/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNjsxMjowMDozMCBQTTsxOzM0MDY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="c"/>
+            <output expression="&quot;Ordem crescente: &quot;" newline="False"/>
+            <if expression="a &lt;= b &amp;&amp; a &lt;= c">
+                <then>
+                    <if expression="b &lt;= c">
+                        <then>
+                            <output expression="a + b + c" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="a + c + b" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="b &lt;=a &amp;&amp; b&lt;= c">
+                        <then>
+                            <if expression="a &lt;= c">
+                                <then>
+                                    <output expression="b + a + c" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="b + c + a" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="a &lt;= b">
+                                <then>
+                                    <output expression="c + a + b" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="c + b + a" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

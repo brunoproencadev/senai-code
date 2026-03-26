@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L4Ex1"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-26 10:47:48 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNjsxMDo0NDoxMyBBTTszMjkw"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNjsxMDo0Nzo0OCBBTTsxOzM0MDk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, c" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="a"/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="b"/>
+            <output expression="&quot;Digite um n&#250;mero: &quot;" newline="False"/>
+            <input variable="c"/>
+            <if expression="a + b + c % 5 ==0">
+                <then>
+                    <output expression="&quot;A soma &#233; divis&#237;vel por cinco!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;A soma n&#227;o &#233; divis&#237;vel por cinco!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
