@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L3Ex2"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-03-26 09:02:05 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNjswODo1NjozMSBBTTszMzAw"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wMy0yNjswOTowMjowNSBBTTsxOzM0MDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <if expression="a % 2 == 0">
+                <then>
+                    <output expression="&quot;Even!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="Odd" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
