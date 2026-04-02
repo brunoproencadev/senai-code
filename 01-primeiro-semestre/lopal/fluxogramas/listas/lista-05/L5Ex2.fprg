@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L5Ex2"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-02 09:17:52 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wMjswOTowNzowMyBBTTszMjkx"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wMjswOToxNzo1MiBBTTsxOzM0MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="option" type="Integer" array="False" size=""/>
+            <declare name="temperature" type="Real" array="False" size=""/>
+            <output expression="&quot;Escolha a op&#231;&#227;o desejada: &quot; &amp; ToChar(13) &amp; ToChar(13) &amp; &quot;1 - Celcius para Fahrenheit&quot; &amp; ToChar(13) &amp; &quot;2 - Celcius para Kelvin&quot; &amp; ToChar(13) &amp; &quot;3 - Fahrenheit para Celcius&quot; &amp; ToChar(13) &amp; &quot;4 - Fahrenheit para Kelvin&quot; &amp; ToChar(13) &amp; &quot;5 - Kelvin para Celcius&quot; &amp; ToChar(13) &amp; &quot;6 - Kelvin para Fahrenheit&quot;" newline="True"/>
+            <output expression="&quot;Digite a op&#231;&#227;o: &quot;" newline="False"/>
+            <input variable="option"/>
+            <output expression="&quot;Digite a temperatura: &quot;" newline="False"/>
+            <input variable="temperature"/>
+            <if expression="option == 1">
+                <then>
+                    <assign variable="f" expression="(temperature * 1.8) + 32"/>
+                    <output expression="&quot;Resutado da convers&#227;o: &quot; + f" newline="True"/>
+                </then>
+                <else>
+                    <if expression="option == 2">
+                        <then>
+                            <assign variable="k" expression="temperature + 273.15"/>
+                            <output expression="&quot;Resutado da convers&#227;o: &quot; + k" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="option == 3">
+                                <then>
+                                    <assign variable="c" expression="(temperature - 32) * (5/9)"/>
+                                    <output expression="&quot;Resutado da convers&#227;o: &quot; + c" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="option == 4">
+                                        <then>
+                                            <assign variable="k" expression="((temperature - 32) / 1.8) + 273.15"/>
+                                            <output expression="&quot;Resutado da convers&#227;o: &quot; + k" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="option == 5">
+                                                <then>
+                                                    <assign variable="c" expression="temperature - 273.15"/>
+                                                    <output expression="&quot;Resutado da convers&#227;o: &quot; + c" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <assign variable="f" expression="(temperature - 273.15) * (9/5) + 32"/>
+                                                    <output expression="&quot;Resutado da convers&#227;o: &quot; + f" newline="True"/>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

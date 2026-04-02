@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L5Ex3"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-02 09:47:13 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wMjswOTozODoxOSBBTTszMzAy"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wMjswOTo0NzoxMyBBTTsxOzM0MDQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="month" type="Integer" array="False" size=""/>
+            <declare name="pole" type="String" array="False" size=""/>
+            <output expression="&quot;Digite o n&#250;mero do m&#234;s (1/12): &quot;" newline="False"/>
+            <input variable="month"/>
+            <output expression="&quot;Escolha o hemisf&#233;rio (N - Norte; S - Sul): &quot;" newline="False"/>
+            <input variable="pole"/>
+            <if expression="pole == &quot;N&quot;">
+                <then>
+                    <if expression="month &gt;=3 &amp;&amp; month &lt;6">
+                        <then>
+                            <output expression="&quot;Esta&#231;&#227;o do ano: Spring&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="month &gt;= 6 &amp;&amp; month &lt;9">
+                                <then>
+                                    <output expression="&quot;Esta&#231;&#227;o do ano: Summer&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="month &gt;= 9 &amp;&amp; month &lt; 12">
+                                        <then>
+                                            <output expression="&quot;Esta&#231;&#227;o do ano: Fall&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Esta&#231;&#227;o do ano: Winter&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="month &gt;= 3 &amp;&amp; month &lt; 6">
+                        <then>
+                            <output expression="&quot;Esta&#231;&#227;o do ano: Summer&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="month &gt;= 6 &amp;&amp; month &lt;9">
+                                <then>
+                                    <output expression="&quot;Esta&#231;&#227;o do ano: Fall&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="month &gt;=9 &amp;&amp; month &lt; 12">
+                                        <then>
+                                            <output expression="&quot;Esta&#231;&#227;o do ano: Winter&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Esta&#231;&#227;o do ano: Spring&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
