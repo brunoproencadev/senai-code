@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L6Ex2"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 09:48:45 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wNzswOTo0MTo1MyBBTTszMjk5"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wNzswOTo0ODo0NSBBTTsxOzM0MTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="income, percent, finalIncome" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite sua renda: R$&quot;" newline="False"/>
+            <input variable="income"/>
+            <assign variable="percent" expression="0.0"/>
+            <if expression="income &lt;= 2000.00">
+                <then>
+                    <assign variable="finalIncome" expression="income - percent"/>
+                    <output expression="&quot;Income: R$&quot; + income &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nIncome Tax: &quot; + &quot;0%&quot; &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nFinal income: R$&quot; + finalIncome &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nYou are insent!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="income &lt;= 5000.00">
+                        <then>
+                            <assign variable="percent" expression="income * 10 / 100"/>
+                            <assign variable="finalIncome" expression="income - percent"/>
+                            <output expression="&quot;Income: R$&quot; + income &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nIncome Tax: &quot; + &quot;10%&quot; &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nFinal income: R$&quot; + finalIncome" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="income &lt;= 10000.00">
+                                <then>
+                                    <assign variable="percent" expression="income * 20 / 100"/>
+                                    <assign variable="finalIncome" expression="income - percent"/>
+                                    <output expression="&quot;Income: R$&quot; + income &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nIncome Tax: &quot; + &quot;20%&quot; &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nFinal income: R$&quot; + finalIncome" newline="True"/>
+                                </then>
+                                <else>
+                                    <assign variable="percent" expression="income * 30 / 100"/>
+                                    <assign variable="finalIncome" expression="income - percent"/>
+                                    <output expression="&quot;Income: R$&quot; + income &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nIncome Tax: &quot; + &quot;30%&quot; &#13;&#10;&#9;&#9;&#9;&#9;&#9;+ &quot;\nFinal income: R$&quot; + finalIncome" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

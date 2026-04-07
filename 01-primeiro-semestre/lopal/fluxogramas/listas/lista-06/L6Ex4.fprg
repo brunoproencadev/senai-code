@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="L6Ex4"/>
+        <attribute name="authors" value="Bruno Proen&#231;a"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-07 10:04:05 AM"/>
+        <attribute name="created" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wNzsxMDowMTo0NCBBTTszMjg3"/>
+        <attribute name="edited" value="QnJ1bm8gUHJvZW7Dp2E7REVWLTE1MzE0Njk7MjAyNi0wNC0wNzsxMDowNDowNSBBTTsxOzMzOTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="score" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o score da Pessoa F&#237;sica: &quot;" newline="False"/>
+            <input variable="score"/>
+            <if expression="score &lt; 400">
+                <then>
+                    <output expression="&quot;Alto Risco! \nCr&#233;tido Negado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="score &lt;= 699">
+                        <then>
+                            <output expression="&quot;Risco m&#233;dio! \nJuros de 10%&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="score &lt; 850">
+                                <then>
+                                    <output expression="&quot;Baixo Risco! \nJuros de 05%&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Cliente VIP \nJuros de 02%&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
