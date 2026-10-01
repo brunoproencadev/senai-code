@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno - Laboratório</title>
+</head>
+
+<body bgcolor="#242424" text="#E8EEFF">
+    <h1>Bruno Proença Silva</h1>
+    <p>Desenvolvedor</p>
+
+    <p>
+        <a href="../index.html">Início</a> |
+        <a href="./sobre.html">Sobre</a> |
+        <a href="./projetos.html">Projetos</a> |
+        <a href="./contato.html">Contato</a>
+    </p>
+
+    <hr>
+
+    <h2>Laboratório de HTML</h2>
+
+    <font face="Arial">Laboratório para testar tags</font>
+
+    <h2>Experimento 2 - Alinhamento</h2>
+
+    <p align="center">Texto alinhado ao centro</p>
+    <p align="right">Texto alinhado à direita</p>
+    <p align="left">Texto alinhado à esquerda</p>
+
+    <h2>Experimento 3 - Movimento</h2>
+
+    <marquee behavior="scroll" direction="right" scrollamount="9999">
+        <img src="../img/images (1).jpg" alt="">
+        Texto em movimento
+    </marquee>
+
+    <h2>Details</h2>
+
+    <details>
+        <summary>Clique aqui</summary>
+        <p>Este conteúdo só será visível quando clicado em "Clique aqui"</p>
+    </details>
+
+    <h2>Experimento 5 - Progress e meter</h2>
+
+    <h3>Progress</h3>
+    <progress value="50" max="100"></progress>
+    <h3>Meter</h3>
+    <meter value="50" max="100"></meter>
+
+    <h2>Experimento 6 - elementos de texto</h2>
+    <b>Negrito</b>
+    <br>
+    <strong>Importante</strong>
+    <br>
+    <i>Italico</i>
+    <br>
+    <em>Enfase</em>
+    <br>
+    <mark>Marca texto</mark>
+    <br>
+    <small>Pequeno</small>
+    <br>
+    <del>Riscado</del>
+    <br>
+    <ins>Sublinhado</ins>
+    <br>
+    <sub>Subscrito</sub>
+    <br>
+    <sup>Superescrito</sup>
+
+    <h2>Experimento 6 - Data list</h2>
+
+    <label for="browser">Escolha seu navegador:</label>
+    <input list="browsers" id="browser" name="browser">
+
+    <datalist id="browsers">
+        <option value="Chrome">
+        <option value="Firefox">
+        <option value="Edge">
+        <option value="Safari">
+        <option value="Opera">
+    </datalist>
+
+    <h2>Experimento 7 - Form</h2>
+
+    <form action="">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+    </form>
+
+    <h2>Experimento 8 - Output</h2>
+
+    <form oninput="result.value=parseInt(a.value) + parseInt(b.value)">
+        <input type="number" name="a" value="0">
+        +
+        <input type="number" name="b" value="0">
+        =
+        <output name="result" for="a b"></output>
+    </form>
+
+</body>
+
+</html>
