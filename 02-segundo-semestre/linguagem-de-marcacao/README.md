@@ -7,3 +7,4 @@
 | [HTML curriculoAula02](atividades/curriculo) | 2026-10-08 | 1 |
 | [HTML aula02](aulas/aula-02) | 2026-10-08 | 1 |
 | [site pessoal](projetos/site-pessoal) | 2026-10-08 | 13 |
+| [biografia de Yuri22](atividades/biografia) | 2026-10-15 | 2 |

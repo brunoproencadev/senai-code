@@ -13,7 +13,7 @@ Atividades, exercícios e projetos do curso, organizados por semestre e discipli
 
 - [Banco de Dados](02-segundo-semestre/banco-de-dados/) — Sem atividades adicionadas.
 - [Programação Back-End 1](02-segundo-semestre/programacao-back-end-1/) — 9 grupos de atividades.
-- [Linguagem de Marcação](02-segundo-semestre/linguagem-de-marcacao/) — 5 grupos de atividades.
+- [Linguagem de Marcação](02-segundo-semestre/linguagem-de-marcacao/) — 6 grupos de atividades.
 - [Projetos de Software 1](02-segundo-semestre/projetos-de-software-1/) — Sem atividades adicionadas.
 
 ## 3º semestre
