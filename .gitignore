@@ -1,0 +1,19 @@
+# Java and generated output
+*.class
+bin/
+out/
+target/
+build/
+# Local workspaces and IDE settings
+.metadata/
+.idea/
+*.iml
+# Local dependencies, credentials and OS files
+node_modules/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
