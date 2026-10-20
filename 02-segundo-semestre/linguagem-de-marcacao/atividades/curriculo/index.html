@@ -5,6 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            margin: 20px 40px;
+        }
+
         #main-title {
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
@@ -21,6 +27,42 @@
             margin-top: 1px;
             margin-bottom: 1px;
         }
+
+        h2 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            color: #000000;
+            border-bottom: 1px solid #cccccc;
+            padding-bottom: 5px;
+            margin-top: 25px;
+            margin-bottom: 12px;
+        }
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            color: #000000;
+            margin-top: 14px;
+            margin-bottom: 4px;
+        }
+
+        p, li {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #222222;
+        }
+
+        ul {
+            margin-top: 6px;
+            margin-bottom: 12px;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #0056b3;
+            text-decoration: underline;
+        }
     </style>
     <title>Curriculum Vitae</title>
 </head>
@@ -35,8 +77,63 @@
 
     <hr>
 
-    <img src="" alt="">
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
 
+        <section id="experiencia">
+            <h2>Experiência Profissional</h2>
+            <article>
+                <h3>Lorem Ipsum Dolor - Empresa Exemplo</h3>
+                <p><em>Janeiro de 2022 - Presente</em></p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                    <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>
+                    <li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                </ul>
+            </article>
+
+            <article>
+                <h3>Consectetur Adipiscing - Empresa Anterior</h3>
+                <p><em>Março de 2019 - Dezembro de 2021</em></p>
+                <ul>
+                    <li>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio.</li>
+                    <li>Nullam varius, turpis et commodo pharetra, est eros bibendum elit, nec luctus magna felis sollicitudin mauris.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section id="formacao">
+            <h2>Formação Acadêmica</h2>
+            <article>
+                <h3>Bacharelado em Lorem Ipsum</h3>
+                <p><strong>Universidade / Instituição de Ensino</strong> | <em>2018 - 2022</em></p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </article>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades e Competências</h2>
+            <ul>
+                <li>HTML5 &amp; CSS3</li>
+                <li>JavaScript / TypeScript</li>
+                <li>Lorem ipsum dolor sit amet</li>
+                <li>Consectetur adipiscing elit</li>
+                <li>Gestão de projetos e metodologias ágeis</li>
+            </ul>
+        </section>
+
+        <section id="idiomas">
+            <h2>Idiomas</h2>
+            <ul>
+                <li><strong>Português:</strong> Nativo</li>
+                <li><strong>Inglês:</strong> Lorem ipsum level (Intermediário / Avançado)</li>
+                <li><strong>Espanhol:</strong> Lorem ipsum level (Básico)</li>
+            </ul>
+        </section>
+    </main>
 </body>
 
 </html>
